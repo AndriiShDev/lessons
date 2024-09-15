@@ -1,0 +1,93 @@
+/* Скидання стилів */
+@import url('reset.css');
+
+/* Тип №0. Селектор зірочка * (усі елементи на сторінці) */
+* {
+  color: black;
+}
+
+/* Тип №1. Селектор тегу */
+p {
+  color: darkblue;
+}
+
+h2 {
+  color: green;
+}
+
+/* Тип №2. Селектор класу */
+.main-title {
+  color: darkred;
+}
+
+/* Тип №3. Селектор ID */
+#ukraine {
+  color: purple;
+}
+
+/* Тип №4. Селектор атрибутів (клас із частковим збігом на "te") */
+[class*='te'] {
+  color: blue;
+}
+
+/* Комбінації селекторів */
+/* Усі <div>, але лише з класом section-text */
+div.section-text {
+  color: olive;
+}
+
+/* Однаковий стиль для кількох селекторів */
+.main-title,
+.section-title,
+li {
+  color: coral;
+}
+
+/* Вкладеність селекторів */
+.introduction-section h2 {
+  color: maroon;
+}
+
+.geography-section p {
+  color: navy;
+}
+
+/* Клас item всередині класу list */
+.list .item {
+  color: darkgreen;
+}
+
+/* Усі об'єкти всередині класу .section-text */
+.section-text * {
+  color: brown;
+}
+
+/* Тільки безпосередньо вкладені елементи */
+.site-footer > ol {
+  color: darkorange;
+}
+
+/* Елементи на тому ж рівні після певного класу */
+.site-header ~ main {
+  color: teal;
+}
+
+/* Елементи відразу після певного класу */
+.site-header + main {
+  color: pink;
+}
+
+/* Пріоритет селекторів */
+/* Останній селектор буде мати пріоритет */
+.main-title {
+  color: darkcyan;
+}
+
+/* Вкладені класи */
+.section-text.red {
+  color: lightcoral;
+}
+
+.section-text .red {
+  color: lightblue;
+}
