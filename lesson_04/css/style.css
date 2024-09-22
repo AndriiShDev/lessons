@@ -1,0 +1,144 @@
+/* Work Sans */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap');
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap');
+
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap');
+
+@import url('fonts.css');
+@import url('reset.css');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+.font-properties h2,
+h3 {
+  font-family: 'Gilroy', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c3e50;
+  text-shadow: 2px 2px 5px #7f8c8d, 5px -2px 10px red;
+}
+
+.font-properties h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1abc9c;
+  text-transform: capitalize;
+}
+
+.font-properties h3 {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  color: #e74c3c;
+}
+
+.font-properties p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  color: #34495e;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.highlight {
+  background-color: yellow;
+  color: #333;
+}
+
+.large-text {
+  font-size: 24px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.decorated-text {
+  text-decoration: line-through;
+}
+
+.shadow-text {
+  text-shadow: 3px 3px 6px #000;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.personal-portfolio {
+  font-family: 'Work Sans', sans-serif;
+}
+.portfolio-title {
+  color: #132238;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 131.578947%; /* 50/38 */
+}
+.portfolio-description {
+  color: #556070;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 133.333333%; /* 24/18 */
+}
+
+.landing-page-template {
+  font-family: Roboto, sans-serif;
+}
+.landing-title {
+  color: #091133;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 132%; /* 66/50 */
+  letter-spacing: 1px;
+}
+.landing-description {
+  color: #505f98;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 166.666667%; /* 30/18 */
+}
+
+.business-presentation {
+  font-family: 'DM Sans', sans-serif;
+}
+.business-title {
+  color: #1e1b39;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107.954545%; /* 95/88 */
+}
+.business-description {
+  color: #474464;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 175%; /* 42/24 */
+}
